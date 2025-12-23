@@ -54,3 +54,14 @@ Console.WriteLine("programlama vize notunu gir");
 float progv = float.Parse(Console.ReadLine());
 Console.WriteLine("programlama final notunu gir");
 float progf = float.Parse(Console.ReadLine());
+
+double inko = inkv * 0.4 + inkf * 0.6;
+double tro = trv * 0.4 + trf * 0.6;
+double ingo = ingv * 0.4 + ingf * 0.6;
+double sbro = sbrv * 0.4 + sbrf * 0.6;
+double yzo = yzv * 0.35 + yzf * 0.5 + yzq * 0.15;
+double dono = donv * 0.3 + donf * 0.4 + ((donq1 + donq2 + donq3) / 3) * 0.3;
+double mato = matv * 0.4 + matf * 0.6;
+double verio = veriv * 0.35 + verif * 0.5 + veriq * 0.15;
+double progo = progv * 0.4 + progf * 0.6;
+
