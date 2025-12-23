@@ -65,3 +65,62 @@ double mato = matv * 0.4 + matf * 0.6;
 double verio = veriv * 0.35 + verif * 0.5 + veriq * 0.15;
 double progo = progv * 0.4 + progf * 0.6;
 
+inko = 2*dortluk_sisteme_cevirme(inko);
+tro = 2*dortluk_sisteme_cevirme(tro);
+ingo = 3*dortluk_sisteme_cevirme(ingo);
+sbro = 2*dortluk_sisteme_cevirme(sbro);
+yzo = 2*dortluk_sisteme_cevirme(yzo);
+dono = 4*dortluk_sisteme_cevirme(dono);
+mato = 5*dortluk_sisteme_cevirme(mato);
+verio = 5*dortluk_sisteme_cevirme(verio);
+progo = 5*dortluk_sisteme_cevirme(progo);
+static double dortluk_sisteme_cevirme(double x)
+{
+    if (x >= 84)
+    {
+
+         return 4;
+    }
+    else if (x >= 77)
+    {
+        return 3.7;
+    }
+    else if (x >= 71)
+    {
+        return 3.3;
+    }
+    else if (x >= 66)
+    {
+        return 3;
+    }
+    else if (x >= 61)
+    {
+        return 2.7;
+    }
+    else if (x >= 56)
+    {
+        return 2.3;
+    }
+    else if (x >= 50)
+    {
+        return 2;
+    }
+    else if (x >= 46)
+    {
+        return 1.7;
+    }
+    else if (x >= 40)
+    {
+        return 1.3;
+    }
+    else if (x >= 33)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
+
