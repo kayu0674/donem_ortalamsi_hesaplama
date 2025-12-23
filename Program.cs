@@ -74,6 +74,10 @@ dono = 4*dortluk_sisteme_cevirme(dono);
 mato = 5*dortluk_sisteme_cevirme(mato);
 verio = 5*dortluk_sisteme_cevirme(verio);
 progo = 5*dortluk_sisteme_cevirme(progo);
+
+
+double genel_ortalama = (inko + tro + ingo + sbro + yzo + dono + mato + verio + progo) / 30;
+Console.WriteLine("Genel Ortalamanız: " + genel_ortalama);
 static double dortluk_sisteme_cevirme(double x)
 {
     if (x >= 84)
